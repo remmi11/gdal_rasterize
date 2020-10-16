@@ -31,7 +31,7 @@ Take note of the EPSG code of the input data. If unknown can be found with the f
 ```bash
 ogrinfo layer.shp layer -so 
 ``` 
-:-------------------------:|:-------------------------:
+|
 <img src="/images/epsg.png" width="300" title="Proj4 link">
 
 ## Execute from cmd line.
