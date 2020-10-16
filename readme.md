@@ -27,12 +27,16 @@ C:\Program Files\GDAL;C:\Program Files\GDAL\gdal-data
 
 ## Add variable values to script.
 1) Set the mySRS variable to the EPSG code of the shapefile data (line 5 in script).
+
 Take note of the EPSG code of the input data. If unknown can be found with the following gdal cmd. Adjusting file and layer name accordingly.
 ```bash
 ogrinfo layer.shp layer -so 
 ``` 
-|
-<img src="/images/epsg.png" width="300" title="Proj4 link">
+
+Add it the result to the script.
+
+<img src="/images/epsg.png" width="300" title="Proj4 link"> | <img src="/images/mysrs.png" width="300" title="Proj4 link">
+
 
 ## Execute from cmd line.
 1) Open cmd prompt.
